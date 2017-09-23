@@ -11,4 +11,6 @@
 - [] `@csethna` is supporting with project management and research about neighborhood resources.
 
 #### Needs
-- []
+- [] establish list of resources `@csethna`
+- get [Falcon][] backend working `@ryan-koch` & `@ben-abrams`
+- frontend `@Bex`
