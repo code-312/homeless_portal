@@ -7,7 +7,7 @@
 - [GitHub Repository](https://github.com/Code-and-Coffee-Uptown-Brigade/homeless_portal)
 - Using `@todobot` to manage tasks
 - [] `@Bex` is taking point on the design/ front-end
-- [] `@ryan-koch` and `@ben-abrams` are working on the back-end using _**Falcon**_. ~~Flask?~~
+- [] `@ryan-koch` and `@ben-abrams` are working on the back-end using **Falcon**. ~~Flask?~~
 - [] `@csethna` is supporting with project management and research about neighborhood resources.
 
 #### Needs
