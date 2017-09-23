@@ -12,5 +12,5 @@
 
 #### Needs
 - [] establish list of resources `@csethna`
-- get [Falcon][] backend working `@ryan-koch` & `@ben-abrams`
+- get [Falcon][https://falcon.io] backend working `@ryan-koch` & `@ben-abrams`
 - frontend `@Bex`
