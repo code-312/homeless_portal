@@ -11,3 +11,4 @@ class HelloResource(object):
 hello_resource = HelloResource()
 
 app.add_route('/hello', hello_resource)
+
