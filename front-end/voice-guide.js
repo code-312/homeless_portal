@@ -22,9 +22,7 @@ function startVoiceGuide() {
     },
   ];
 
-  delay(200)
-    .then(() => speakToUser("What would you like help with?"))
-    .then(() => delay(300))
+  speakToUser("What would you like help with?")
     .then(() => speakToUser("You can say things like I'm hungry, I want a job, or a place to sleep."))
     .then(listenForResponse)
     .then(parseUserResponse)
@@ -72,11 +70,5 @@ function startVoiceGuide() {
   function isKeywordInSpeech(spoken, category) {
     const foundKeyword = category.keywords.find(keyword => spoken.includes(keyword));
     return foundKeyword !== undefined;
-  }
-
-  function delay(t) {
-    return new Promise(function(resolve) {
-      setTimeout(resolve, t)
-    });
   }
 }
