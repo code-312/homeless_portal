@@ -44,6 +44,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         flex-wrap: wrap;
 }
 
+#listening-icon {
+    width: 90px;
+    height: 90px;
+    animation: flash linear 1s infinite;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 /* big screen */
 @media (min-width: 750px) { 
     .resources-grid{
@@ -89,4 +99,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         margin: 0 auto;
         display: block;
     }
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: .1; }
+    100% { opacity: 1; }
 }
