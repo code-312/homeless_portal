@@ -14,3 +14,8 @@
 - [] establish list of resources `@csethna`
 - get [Falcon][https://falcon.io] back-end working `@ryan-koch` & `@ben-abrams`
 - front-end `@Bex`
+
+### Backend environment basic setup
+- Set up a virtual environment on your machine -> [Hitchhiker's Guide to Python resource for virtual environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+- Fork and then clone this repository. Resources on how to manage your fork [here](https://help.github.com/articles/fork-a-repo/)
+- Use [gunicorn](http://docs.gunicorn.org/en/stable/index.html) to launch the app (will provide more detail when there's a more complex app to launch) 
