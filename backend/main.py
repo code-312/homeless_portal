@@ -1,3 +1,11 @@
+# This is just a skeleton setup to test and make sure that one can start up a falcon app after running requirements.txt 
+# and such. 
+
+# To do
+# - Once requirements are set, determine the data source that we need to cache
+# - Choose storage DBMS
+
+
 import falcon
 
 app = falcon.API()
